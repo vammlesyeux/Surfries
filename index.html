@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="login-container" id="login-screen">
+    <h2>Log In</h2>
+    <input type="text" id="username" placeholder="Username" />
+    <input type="password" id="password" placeholder="Password" />
+    <button onclick="login()">Login</button>
+    <p id="error-msg"></p>
+  </div>
+
+  <div class="message-screen" id="message-screen" style="display: none;">
+    <div class="cake-icon" onclick="toggleMessage()">🎂</div>
+    <div class="message-box" id="message-box">
+      <h2>Warning: Long message ahead</h2>
+      <p>
+        <strong>Dearest baks,</strong><br/><br/>
+        Happy Birthday!<br/><br/>
+
+        Before ka ma shock on why I gave you this, it is really in my nature to write hand written letters to the people I care about. Archaic it may seem, but it really gives me joy to let the people know what I truly felt.<br/><br/>
+
+        Have I mentioned that I like it when you smile? Ooh, I have? Wowowowow, na mention na diay nako. Ooh, I have not yet? wwowowow, now you know na. chz hahahaha, jokes aside, you just look so bright with your smile on your face. Pero baks, unsa jud diay inyong toothpaste? puti kaykag ngipon hahahahhaa<br/><br/>
+
+        It has been a while already since all of the twist and turns. All of which we all survived. Baks, there was never a time where I stopped thanking for the fact that we became acquaintances. You've become a ball of wisdom and sunshine to your friends, and as your classmate, you became one to me too.<br/><br/>
+
+        They say an apple a day keeps the doctor away. As for me, a hug once in a while from the person I feel seen and heard, keeps the worries away. Well to be exact, it eases the worries at some point, and I am more than grateful for the hugs you've given me, especially when I ask for it. Thank you for being my hug person whenever I needed one.<br/><br/>
+
+        I could say—you've known a little more about me more than the others for there were instances where ikaw ra akong gi allow to do, and some nga you knew because you were curious about it. And although I feel like I keep sharing stories to you and it sounds too much, thanks still for listening. (bahalag one sided sha 😆, all goods lng naman the idea of it. mystery makes it fun)<br/><br/>
+
+        There were countless times you came and checked on me—which I really appreciate. There were times where you were just there. There were times where you just let me be—for a breather. Do you really know me enough to know when I needed one the most? Or is it just your feeling that I might be needing that? 😆 either way, I love you for that.<br/><br/>
+
+        I know there are countless times where you were carrying too much loads on your shoulders and that it was too much to carry—that it was too heavy. I have seen in your eyes how hurt you were at some points in those moments. I hope in the ways I knew how, I eased a bit of those. They say there is a rainbow after the rain. I hope you'll wear your smile after the rains, baks.<br/><br/>
+
+        Sa kabuang natong duha, we've gone through some ghost season. All of which contribute to what I feel like the gap from what we used to have in our 'friendship'. It was really hard, and I know it was harder on your end. What happened just made me love you more, baks. I've known how open you are to understanding situations despite the pain you were feeling, despite the tears you've shed, and despite all the pride and ego lowered down for the sake of fixing things. I've also learned how selfless you are to forgive people. Baks, I am genuinely sorry that you had to go through that shit and feel the way you felt that time.<br/><br/>
+
+        Baks, it's on general knowledge that people have a keen standards towards any relationships, and I know you do have one as well. I do feel that there is still a small wall between, but despite that, I feel comforted whenever you're around. I'm not quite sure if you knew about this, but I find it hard building relationships with people I just met. But with you, things were a little less hard. Thank you baks, for embracing me when things gets a little too rough. You do all sorts of things you could think of just to cheer me up. Your small gestures means a lot to me—so much that thanking you is not enough.<br/><br/>
+
+        Continue being the ball of wisdom and sunshine, baks.<br/><br/>
+
+        I love you and I appreciate you so much baks!<br/>
+        Thank you for existing.<br/><br/>
+
+        <em>Soft hours,</em><br/>
+        <strong>Vienna</strong>
+      </p>
+    </div>
+    <button id="print-btn" onclick="printLetter()">Print Letter</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
